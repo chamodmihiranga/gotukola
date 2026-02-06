@@ -1,3 +1,12 @@
+/*
+mongodb+srv://gotukola299:gotukola299wha@cluster0.2jmy2zs.mongodb.net/
+
+https://files.catbox.moe/t8q43h.jpeg
+
+https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w
+
+120363422562980426@newsletter
+*/
 const express = require('express');
 const fs = require('fs-extra');
 const path = require('path');
@@ -69,10 +78,10 @@ const config = {
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/Lv9xgNjbS7Y2l8IGlmCVWb',
     ADMIN_LIST_PATH: './admin.json',
     DTZ_MINI_BOT_IMAGE: 'https://i.ibb.co/b5TnYqYG/tourl-1765446976551.jpg',
-    NEWSLETTER_JID: '120363420405260015@newsletter',
+    NEWSLETTER_JID: '120363422562980426@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
-    OWNER_NUMBER: '94760091093',
+    OWNER_NUMBER: '94761480834',
     PAIR: 'https://www.darktechzone.site/',
     WEB: 'https://dtz-mini-bot-v3-6bc2327021eb.herokuapp.com/',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbAb56wFcow9VF8VdX3S'
@@ -108,7 +117,7 @@ const Session = mongoose.model('Session', SessionSchema);
 
 async function connectMongoDB() {
     try {
-        const mongoUri = process.env.MONGO_URI || 'mongodb+srv://cloud25588_db_user:RQxEbZhj74uGOtb4@cluster0.pptbqdr.mongodb.net/dtztfmkuck012?appName=Cluster0';
+        const mongoUri = process.env.MONGO_URI || 'mongodb+srv://gotukola299:gotukola299wha@cluster0.2jmy2zs.mongodb.net/dtztfmkuck012?appName=Cluster0';
         await mongoose.connect(mongoUri, {
             useNewUrlParser: true,
             useUnifiedTopology: true
